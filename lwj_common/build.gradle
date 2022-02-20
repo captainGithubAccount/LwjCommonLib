@@ -4,7 +4,7 @@ plugins {
     id 'maven-publish'
 }
 group = 'com.github.captainGithubAccount'//captainGithubAccount为github上你的账号名
-version = '1.0.0'//github上release发布的版本
+version = '1.0.1'//github上release发布的版本
 
 android {
     compileSdk 31
@@ -117,7 +117,7 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.lwj.lwjcommonlib'//这里是你的清单文件夹下的包名
                 artifactId = 'final'
-                version = '1.0.0'//这里和上面的保持一样
+                version = '1.0.1'//这里和上面的保持一样
             }
         }
     }

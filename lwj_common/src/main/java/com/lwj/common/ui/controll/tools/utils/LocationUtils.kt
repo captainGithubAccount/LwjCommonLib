@@ -13,6 +13,7 @@ import java.lang.Exception
 import java.lang.RuntimeException
 import java.util.*
 
+
 class LocationUtils constructor() {
     var timer1: Timer? = null
     var lm: LocationManager? = null

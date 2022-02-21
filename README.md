@@ -5,12 +5,13 @@
 * 写法一
 
 ```java
+
 allprojects {
     repositories {
-            google()
-            mavenCentral()
-			maven { url 'https://jitpack.io' }
-	}
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
 }
 ```
 

@@ -10,7 +10,6 @@ allprojects {
             google()
             mavenCentral()
 			maven { url 'https://jitpack.io' }
-		}
 	}
 }
 ```
@@ -19,7 +18,8 @@ allprojects {
 
 ```java
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    
+repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
@@ -31,7 +31,7 @@ dependencyResolutionManagement {
 
 ## 2、 Add the dependency
 ```java
-	dependencies {
-        implementation 'com.github.captainGithubAccount:LwjCommon:2.0.3'
-	}
+dependencies {
+    implementation 'com.github.captainGithubAccount:LwjCommonLib:1.0.1'
+}
 ```

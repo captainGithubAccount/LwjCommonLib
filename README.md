@@ -34,6 +34,6 @@ repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
 ## 2、 Add the dependency
 ```java
 dependencies {
-    implementation 'com.github.captainGithubAccount:LwjCommonLib:1.0.2'
+    implementation 'com.github.captainGithubAccount:LwjCommonLib:1.0.3'
 }
 ```

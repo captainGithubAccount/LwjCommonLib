@@ -11,6 +11,7 @@ allprojects {
         google()
         mavenCentral()
         maven { url 'https://jitpack.io' }
+        jcenter() // Warning: this repository is going to shut down soon
     }
 }
 ```
@@ -33,6 +34,6 @@ repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
 ## 2、 Add the dependency
 ```java
 dependencies {
-    implementation 'com.github.captainGithubAccount:LwjCommonLib:1.0.1'
+    implementation 'com.github.captainGithubAccount:LwjCommonLib:1.0.2'
 }
 ```
